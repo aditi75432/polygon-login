@@ -1,0 +1,55 @@
+/* src/components/HomePage.css */
+
+.homepage {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: #f4f4f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .homepage-header {
+    margin-bottom: 20px;
+  }
+  
+  .homepage-header h1 {
+    font-size: 2.5rem;
+    color: #4a90e2;
+  }
+  
+  .homepage-header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .homepage-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #357ABD;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+
+

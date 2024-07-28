@@ -3,8 +3,8 @@
 .homepage {
     text-align: center;
     font-family: 'Arial', sans-serif;
-    color: #333;
-    background: #f4f4f9;
+    color: #f3f4f0;
+    background: #141414;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,13 +17,23 @@
   }
   
   .homepage-header h1 {
-    font-size: 2.5rem;
-    color: #4a90e2;
+    font-size: 2.2rem;
+    color: #0fb2f3;
+  }
+
+  .homepage-header h2{
+    font-size: 2 rem;
+    color: aquamarine;
+  }
+
+  .homepage-header h3{
+    font-size: 1.5rem;
+    color: aqua;
   }
   
   .homepage-header p {
     font-size: 1.2rem;
-    color: #666;
+    color: #efe7e7;
   }
   
   .homepage-main {
@@ -33,8 +43,8 @@
   }
   
   button {
-    background-color: #4a90e2;
-    color: white;
+    background-color: #0fcae2;
+    color: rgb(29, 28, 28);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -44,11 +54,20 @@
   }
   
   button:hover {
-    background-color: #357ABD;
+    background-color: #084888;
   }
   
   button:focus {
     outline: none;
+  }
+
+  .image-container {
+    text-align: center;
+  }
+  
+  .centered-image {
+    max-width: 50%; /* Adjust this value as needed */
+    height: auto;
   }
 
 

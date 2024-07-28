@@ -124,7 +124,7 @@ const Login = () => {
         const signature = await web3.eth.personal.sign(message, account);
         console.log("User authenticated with signature:", signature);
         // Redirection logic after successful authentication
-        window.location.href = 'http://localhost:3001';
+        window.location.href = 'http://localhost:3001/admin/typography';
       } catch (error) {
         console.error("Error signing message", error);
       }
